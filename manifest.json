@@ -1,0 +1,23 @@
+{
+  "name": "URL Tagger",
+  "version": "1.0",
+  "description": "Adds custom tags to an URL",
+  "developer": "Soubhagya Ranjan Nayak",
+  "permissions": ["storage","tabs"],
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+   },
+    "icons": {
+      "16": "images/tagit.png",
+      "32": "images/tagit.png",
+      "48": "images/tagit.png",
+      "128": "images/tagit.png"
+    },
+  "browser_action": {
+     "default_icon": "images/tagit.png",
+     "default_title": "Add tags to the URL",
+	 "default_popup": "popup.html"
+   },
+  "manifest_version": 2
+}
